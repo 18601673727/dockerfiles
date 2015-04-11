@@ -30,8 +30,7 @@ ADD ./start.sh /start.sh
 RUN chmod 755 /start.sh
 
 # private expose
-EXPOSE 8000
-WORKDIR /laravel
+EXPOSE 80
 VOLUME ["/var/www/vhosts/laravel"]
 
 CMD ["/bin/bash", "/start.sh"]
