@@ -1,4 +1,5 @@
 kitematic-hhvm-laravel4
 ===================
 
-Fock from https://github.com/Joostvanderlaan/dockerfiles
+Forked from https://github.com/Joostvanderlaan/dockerfiles,
+Any PR would be welcome :)
